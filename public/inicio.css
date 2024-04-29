@@ -1,0 +1,64 @@
+/*INICIO*/
+
+/* Divide la pantalla por mitad */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control el lado izquierdo*/
+  .left {
+    left: 1;
+    background-color: #3369fc;
+  }
+  
+  /* Control el lado derecho */
+  .right {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* Si deseas que el contenido este centrado horizontal y verficalmente */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Aplicar estilo a la imagen dentro del contenedor*/
+  .centered img {
+    width: 400px;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .hr {
+    margin: 1rem 0;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+  }
+  
+  .buttoningre {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+  }
+
+

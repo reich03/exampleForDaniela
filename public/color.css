@@ -1,0 +1,259 @@
+
+/*encabezdo para todas las paginas*/
+
+
+/* estilo a la lista encabezado*/
+ul.breadcrumb {
+  padding: 1px 100px;
+  list-style: none;
+  background-color: #3369fc;
+}
+
+/* mostrar elementos de la lista uno al lado del otro encabezado*/
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+}
+
+/* Agregue un símbolo de barra diagonal (/) antes/detrás de cada elemento de la lista */
+ul.breadcrumb li+li:before {
+  padding: 1px;
+  color: rgb(0, 0, 0);
+  content: "/\00a0";
+}
+
+/* Añade un color a todos los enlaces dentro de la lista*/
+ul.breadcrumb li a {
+  color: #0275d8;
+  color:white;
+  font-weight:bold
+  
+}
+
+/* Agregar un color al seleccionar una opcion del menu */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* Aplicar estilo al formulario: mostrar elementos horizontalmente */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Añade algunos márgenes para cada etiqueta. label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/*Aplicar estilo a los campos de entrada  */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Aplicar estilo al botón de enviar*/
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+/* Color de fondo de la pagina*/
+body, html {
+  margin: 2px;
+  height: 100px;
+  padding: 1px;
+  background-color: #fcfcfc;
+  font-family:Arial, sans-serif;
+  justify-content: center;
+}
+
+/*pie de pagina*/
+footer {
+	background-color: #0275d8;
+	padding: 1opx 20px;
+	text-align: center;
+}
+
+/* anchura y altura de un elemento*/
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 2px 3px;
+  
+}
+
+/*Administrador y empleado*/
+/*LADO IZQUIERDO*/
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #3369fc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.sidebar img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.sidebar a:hover {
+  background-color: #555;
+}
+.sidebar .username {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/*LADO DERECHO*/
+#container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+button{
+  display: block;
+  width: 200px;
+  height: 60px;
+  margin: 16px;
+  background-color:#D2ECF3;
+  color:  black;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+  align-items: center;
+  
+}
+
+/* lista factura*/
+table{
+  margin: 3%;
+  width: 100%;
+  box-shadow: 0 5px 7px gray;
+  border-collapse: collapse;
+}
+th {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+}
+td {
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+}
+tr:nth-child(even) {
+  background-color: #dee8f5;
+}
+
+
+/* registro compra*/
+
+
+
+
+
+
+
+
+
+/*botones de seleccionar al final de la pagina*/
+
+.button1 {
+  background-color: #f80808; 
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:bold;
+  align-items: center;
+}
+
+.button2 {
+  background-color: #ebff39; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:bold;
+  align-items: center;
+}
+
+.button3 {
+  background-color: #00ba54; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:bold;
+  align-items: center;
+}
+
+.button4 {
+  background-color: #3d6f82;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:bold;
+  align-items: center;
+}
+
+.button1 {padding: 12px 28px; margin-left: 10px}
+.button2 {padding: 12px 28px; margin-left: 10px}
+.button3 {padding: 12px 28px; margin-left: 10px}
+.button4 {padding: 12px 28px; margin-left: 10px}
+
+
+div.container.div-name-container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}

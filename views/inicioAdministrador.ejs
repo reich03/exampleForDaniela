@@ -1,0 +1,68 @@
+
+  <%- include('partials/head.ejs'); %>
+  <body>
+    <div class="sidebar">
+      <img src="../logo.jpg" alt="minimarket" />
+      <div class="username"><b>ADMINISTRADOR</b></div>
+      <a href="#"><b> Editar perfil</b></a>
+      <a href="#"><b>Administrar cuenta </b></a>
+      <a href="#"><b>Ajustes</b></a>
+    </div>
+
+    <div style="margin-left: 300px">
+      <div id="container" class="d-flex">
+        <div id="buttons-container">
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/compras.svg" alt="Icon" /><b
+              >Registro de compras</b
+            >
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/venta.svg" alt="Icon" /><b
+              >Registro de ventas</b
+            >
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/producto.svg" alt="Icon" /> <b>Productos</b>
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/factura.svg" alt="Icon" /> <b>Facturas</b>
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/clientes.svg" alt="Icon" /> <b>Cliente</b>
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/proveedor.svg" alt="Icon" /><b> proveedores</b>
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/inventario.svg" alt="Icon" /> <b>Inventario</b>
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/Domiciliario.svg" alt="Icon" />
+            <b>Domiciliario</b>
+          </button>
+
+          <button class="icon-button d-flex items-center">
+            <img src="../iconos/indicadores.svg" alt="Icon" />
+            <b>Indicadores</b>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container div-name-container"></div>
+    <div class="footer"><%- include('partials/footer'); %></div>
+    <script src="../app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
